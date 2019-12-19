@@ -147,7 +147,7 @@ class Instructor extends Lambdasian{
     return `${student.name} receives a perfect score on ${subject}`;
   }
   updateGrade(student){
-    student.grade += Math.floor((Math.random() * (20 + 5) - 5));
+    student.grade += Math.ceil((Math.random() * (20 + 5) - 5));
   }
 }
 
