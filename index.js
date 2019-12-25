@@ -19,7 +19,7 @@ class Airplane {
   land() {
     this.isFlying = false;
   }
-}
+} 
 
 /*
 // 👇 COMPLETE YOUR WORK BELOW 👇
